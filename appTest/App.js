@@ -1,10 +1,11 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 import RegistroScreen from './screens/RegistroScreen'
+import SesionScreen from './screens/SesionScreen'
 
 export default function App() {
   return (
-    <RegistroScreen></RegistroScreen>
+    <SesionScreen></SesionScreen>
   );
 }
 

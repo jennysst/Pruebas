@@ -1,6 +1,6 @@
 //SCREEN PARA EL REGSITRO
 
-import { SafeAreaView, View, Text, StyleSheet, Pressable } from "react-native";
+import { SafeAreaView, View, Text, StyleSheet} from "react-native";
 import { useState } from "react";
 import InputPersonalizado from "../components/InputPersonalizado";
 import Boton from "../components/Boton";
