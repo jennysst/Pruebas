@@ -10,7 +10,7 @@ export default function InputPersonalizado({texto, relleno, valor, funcion}){
                 placeholder={relleno}
                 value= {valor}
                 onChangeText={funcion}
-                placeholderTextColor='#909090'
+                placeholderTextColor='#52796f'
             />
         </View>
     )
@@ -22,17 +22,19 @@ const styles = StyleSheet.create({
         marginBottom: 20,
     },
     input: {
-        borderColor: '#000000',
         borderWidth: 1,
         padding: 10,
         margin: 5,
         borderRadius: 20,
-        backgroundColor: '#F5F5F5'
+        backgroundColor: '#F5F5F5',
+        fontSize: 16,
+        borderColor: '#52796f'
     },
     texto:{
         marginLeft: 10,
         marginBottom: 5,
         fontWeight: 'bold',
-        fontSize: 14,
+        fontSize: 16,
+        color: '#2f3e46'
     }
 });

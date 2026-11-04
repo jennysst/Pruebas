@@ -16,6 +16,7 @@ export default function Horas({hrs}){
     )
 }
 
+//"#cad2c5","#84a98c","#52796f","#354f52","#2f3e46"
 const styles = StyleSheet.create({
     container: {
         alignItems: 'flex-start',
@@ -23,23 +24,26 @@ const styles = StyleSheet.create({
     },
     press:{
         flexDirection:'row',
-        backgroundColor: '#1E1E1E',
+        backgroundColor: '#354f52',
         borderRadius: 20,
         alignItems:'center',
         borderWidth:1,
-        
+        height: 40,
+        paddingRight: 10,
+        borderColor: '#2f3e46',
     },
     reloj:{
-        backgroundColor:'#757575',
+        backgroundColor:'#cad2c5',
         borderRadius: 20,
         borderWidth:2,
-        borderColor: '#757575',
-        margin:2,
+        borderColor: '#cad2c5',
+        margin:6,
+        width: 25,
+        height:25,
     },
     horas:{
-        marginLeft: 5,
-        marginRight: 12,
-        color: '#757575',
+        marginLeft: 2,
+        color: '#cad2c5',
         fontWeight: 'bold'
     }
 });

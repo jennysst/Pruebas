@@ -17,16 +17,17 @@ export default function Perfil(){
     )
 }
 
-
+//"#cad2c5","#84a98c","#52796f","#354f52","#2f3e46"
 const styles = StyleSheet.create({
     press:{
-        backgroundColor: '#1E1E1E',
+        backgroundColor: '#354f52',
         width: 40,
         height: 40,
-        borderRadius: 21,
+        borderRadius: 20,
         alignItems: 'center',
         justifyContent: 'center',
         borderWidth: 1,
+        borderColor: '#2f3e46',
     },
     imagen:{
         width: 20,

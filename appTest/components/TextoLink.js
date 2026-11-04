@@ -12,9 +12,10 @@ export default function TextoLink({linkTexto}){
 const styles = StyleSheet.create({
     texto:{
         fontWeight: 'bold',
-        fontSize: 14,
+        fontSize: 16,
         marginTop: 30,
         margin: 5,
-        textDecorationLine: 'underline'
+        textDecorationLine: 'underline',
+        color: '#2f3e46',
     },
 });

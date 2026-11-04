@@ -12,15 +12,18 @@ export default function Boton({textoBoton, style}){
 
 const styles = StyleSheet.create({
     boton: {
-        backgroundColor: '#E6E6E6',
+        backgroundColor: '#354f52',
         alignItems: 'center',
         justifyContent: 'center',
         borderWidth: 1,
         padding: 10,
         borderRadius: 10,
         margin:5,
+        borderColor: '#2f3e46'
     },
     texto:{
         fontWeight: 'bold',
+        fontSize: 16,
+        color: '#cad2c5'
     },
 });
