@@ -62,21 +62,23 @@ export default function RegistroScreen(){
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#F2F2F7',
+        backgroundColor: '#cad2c5',
         alignItems: 'center',
         justifyContent: 'center',
     },
     vista:{
-        backgroundColor: '#D9D9D9',
+        backgroundColor: '#ffffff',
         padding: 30,
         borderRadius: 20,
         width: '90%',
         borderWidth: 1,
+        borderColor: '#52796f'
     },
     titulo: {
         fontWeight: 'bold',
-        fontSize: 25,
+        fontSize: 28,
         marginBottom: 30,
-        textAlign: 'center'
+        textAlign: 'center',
+        color: '#2f3e46'
     },
 });

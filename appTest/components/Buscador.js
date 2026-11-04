@@ -8,13 +8,14 @@ export default function Buscador({valor, funcion}){
             <TextInput
                 style = {styles.input}
                 placeholder="Buscar"
-                placeholderTextColor={'#1E1E1E'}
+                placeholderTextColor={'#2f3e46'}
                 value={valor}
                 onChangeText={funcion}
             />
             <Pressable>
                 <Image
                     source={require('../assets/img/Lupa.png')}
+                    style = {styles.lupa}
                 ></Image>
             </Pressable>
             
@@ -22,22 +23,29 @@ export default function Buscador({valor, funcion}){
     )
 }
 
+//"#cad2c5","#84a98c","#52796f","#354f52","#2f3e46"
 const styles = StyleSheet.create({
     container:{
+        flex:1,
         flexDirection:'row',
         borderWidth: 1,
         borderRadius: 25,
         alignItems: 'center',
-        padding:5,
-        paddingLeft:15,
-        paddingRight: 15,
-        backgroundColor: '#757575',
+        paddingHorizontal: 12,
+        backgroundColor: '#ffffff',
         justifyContent: 'space-between',
-        width: '69%'
+        height: 40,
+        borderColor: '#2f3e46',
         
     },
     input:{
+        flex:1,
         outlineStyle: 'none',
-        width:'100%'
-    }
+        fontWeigth: '500',
+    },
+    lupa:{
+        width: 18,
+        height: 18,
+        resizeMode: 'contain',
+    },
 });
