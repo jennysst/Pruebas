@@ -9,6 +9,7 @@ export default function App() {
     <InicioScreen></InicioScreen>
     //<RegistroScreen></RegistroScreen>
     //<SesionScreen></SesionScreen>
+    
   );
 }
 

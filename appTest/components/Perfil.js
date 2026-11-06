@@ -32,6 +32,6 @@ const styles = StyleSheet.create({
     imagen:{
         width: 20,
         height: 20,
-        resizeMode: 'contain'
+        resizeMode: 'contain',
     },
 })
