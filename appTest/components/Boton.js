@@ -18,8 +18,9 @@ const styles = StyleSheet.create({
         borderWidth: 1,
         padding: 10,
         borderRadius: 10,
-        margin:5,
-        borderColor: '#2f3e46'
+        borderColor: '#2f3e46',
+        width: '96%',
+        alignSelf: 'center',
     },
     texto:{
         fontWeight: 'bold',

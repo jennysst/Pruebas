@@ -44,6 +44,7 @@ const styles = StyleSheet.create({
     horas:{
         marginLeft: 2,
         color: '#cad2c5',
-        fontWeight: 'bold'
+        fontWeight: 'bold',
+        fontSize: 16,
     }
 });
