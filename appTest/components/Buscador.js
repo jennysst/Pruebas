@@ -42,6 +42,7 @@ const styles = StyleSheet.create({
         flex:1,
         outlineStyle: 'none',
         fontWeigth: '500',
+        fontSize: 16,
     },
     lupa:{
         width: 18,
